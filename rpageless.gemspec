@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rpageless::VERSION
   spec.authors       = ["ratnakar"]
   spec.email         = ["ratnakarrao_nyros@yahoo.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{jquery pageless}
+  spec.summary       = %q{jquery pageless}
   spec.homepage      = ""
   spec.license       = "MIT"
 
