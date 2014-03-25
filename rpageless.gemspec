@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ratnakarrao_nyros@yahoo.com"]
   spec.description   = %q{jquery pageless}
   spec.summary       = %q{jquery pageless}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ratnakarrao-nyros/rpageless"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
