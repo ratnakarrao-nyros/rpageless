@@ -40,6 +40,8 @@ and when you call pageless from erb's you can simply call by the following
 
 that's it no need of place any helpers code in application helper file.
 
+you can follow the demo for remianing options (https://github.com/jney/jquery.pageless.demo)
+
 ## Contributing
 
 1. Fork it
