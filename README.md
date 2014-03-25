@@ -1,12 +1,17 @@
-# Rpageless
+## Rpageless
 
-TODO: Write a gem description
+rpageless gem originally extracted from pageless-rails . the advantage of rpageless over the pageless-rails is no need to place pageless helper code in application helpers 
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'rpageless'
+    gem install rpageless
+
+    or place gem in Gemfile
+
+    gem rpageless
 
 And then execute:
 
@@ -18,7 +23,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ You can simply call pageless helper by supplying following options 
+
+ pageless('pages count','url','container','target div','loading message')
+
 
 ## Contributing
 
