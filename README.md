@@ -23,10 +23,23 @@ Or install it yourself as:
 
 ## Usage
 
- You can simply call pageless helper by supplying following options 
+ add following in application.js
 
- pageless('pages count','url','container','target div','loading message')
+ //= require jquery.pageless
 
+
+ and when you call pageless from erb's you can simply call by the following
+
+
+ <div id="divname">
+  <%= render @posts %>
+ </div>
+
+ <%= will_paginate @posts %>
+ <%= pageless(@posts.total_pages, posts_path ,'container','divname','loading message') %>
+
+
+ that's it no need of place any helpers code in application helper file.
 
 ## Contributing
 
